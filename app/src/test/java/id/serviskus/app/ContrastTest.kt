@@ -113,10 +113,13 @@ class ContrastTest {
 
     @Test
     fun `garis batas outlineStrong memenuhi kontras minimal 3 banding 1 di atas latar dan permukaan`() {
-        // LightOutlineStrong on LightSurfaceVariant is ~2.997; input borders sit on bg/surface.
         assertPairsMeetContrast(
             foregrounds = listOf("LightOutlineStrong" to LightOutlineStrong),
-            backgrounds = listOf("LightBg" to LightBg, "LightSurface" to LightSurface),
+            backgrounds = listOf(
+                "LightBg" to LightBg,
+                "LightSurface" to LightSurface,
+                "LightSurfaceVariant" to LightSurfaceVariant,
+            ),
             minRatio = MIN_INTERACTIVE_CONTRAST,
         )
         assertPairsMeetContrast(

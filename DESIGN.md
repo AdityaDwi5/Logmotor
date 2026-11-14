@@ -23,7 +23,7 @@ Semua pasangan teks dan komponen interaktif di bawah sudah dihitung rasio kontra
 | ink            | #1C1B18 | #ECE8DF | teks utama                        |
 | inkMuted       | #5E5A50 | #A8A294 | teks sekunder, label              |
 | outline        | #CFC8B8 | #3A3630 | garis pemisah halus               |
-| outlineStrong  | #8A8374 | #7D766A | batas kolom input dan kontrol     |
+| outlineStrong  | #898273 | #7D766A | batas kolom input dan kontrol     |
 | overdue        | #B3261E | #FFB4AB | terlambat                         |
 | soon           | #8A5A00 | #E8B84A | segera                            |
 | ok             | #2F6B3A | #8FD19A | aman                              |

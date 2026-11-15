@@ -9,7 +9,7 @@ import org.junit.runner.RunWith
 @RunWith(AndroidJUnit4::class)
 class AppContextInstrumentedTest {
     @Test
-    fun `applicationId sesuai konfigurasi ServisKu`() {
+    fun applicationId_sesuai_konfigurasi_ServisKu() {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("id.serviskus.app", appContext.packageName)
     }

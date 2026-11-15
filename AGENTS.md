@@ -55,7 +55,7 @@ app/src/main/java/id/serviskus/app/
 ## Aturan domain
 
 - Uang: `Long` rupiah utuh. Jangan `Float` atau `Double`.
-- Odometer: `Int` kilometer. Tidak boleh lebih kecil dari catatan sebelumnya kecuali pengguna mengonfirmasi koreksi.
+- Odometer: `Int` kilometer. Tidak boleh lebih kecil dari catatan sebelumnya menurut tanggal kecuali pengguna mengonfirmasi koreksi.
 - Tanggal servis: `LocalDate`, disimpan sebagai epoch day. Perbandingan "hari ini" memakai zona waktu perangkat.
 - Jatuh tempo: sebuah komponen jatuh tempo jika `odometer >= lastDoneOdometer + intervalKm` ATAU `today >= lastDoneDate + intervalMonths`. Salah satu interval boleh kosong. Logika ini ada di `domain/usecase` dan wajib punya unit test.
 - Estimasi km per hari dihitung dari dua catatan odometer terakhir dan hanya dipakai untuk perkiraan, bukan untuk menentukan jatuh tempo.

@@ -1,5 +1,49 @@
 <resources>
     <string name="app_name">ServisKu</string>
-    <string name="placeholder_title">ServisKu</string>
-    <string name="placeholder_subtitle">Kerangka aplikasi siap digunakan.</string>
+
+    <string name="home_empty_message">Belum ada motor tercatat.</string>
+    <string name="home_action_add_vehicle">Tambah motor</string>
+    <string name="home_action_update_odometer">Perbarui km</string>
+    <string name="home_action_retry">Muat ulang</string>
+
+    <string name="home_error_load_title">Gagal memuat data motor.</string>
+    <string name="home_error_load_action">Tutup lalu buka kembali aplikasi, atau coba muat ulang.</string>
+
+    <string name="home_section_upcoming">Perawatan mendatang</string>
+    <string name="home_upcoming_empty">Belum ada jadwal perawatan tercatat.</string>
+    <string name="home_section_history">Riwayat servis terakhir</string>
+    <string name="home_history_empty">Belum ada servis tercatat.</string>
+
+    <string name="home_unit_km">km</string>
+    <string name="home_status_overdue">Terlambat</string>
+    <string name="home_status_soon">Segera</string>
+    <string name="home_status_ok">Aman</string>
+
+    <string name="home_maintenance_remaining_km">%1$s km lagi</string>
+    <string name="home_maintenance_overdue_km">lewat %1$s km</string>
+    <plurals name="home_maintenance_remaining_days_alone">
+        <item quantity="one">%1$d hari lagi</item>
+        <item quantity="other">%1$d hari lagi</item>
+    </plurals>
+    <plurals name="home_maintenance_remaining_days_pair">
+        <item quantity="one">%1$d hari</item>
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <plurals name="home_maintenance_overdue_days">
+        <item quantity="one">terlambat %1$d hari</item>
+        <item quantity="other">terlambat %1$d hari</item>
+    </plurals>
+    <string name="home_maintenance_due_today">hari ini</string>
+    <string name="home_maintenance_or_pair">%1$s atau %2$s</string>
+
+    <string name="home_history_odometer_workshop">%1$s · %2$s</string>
+    <string name="home_history_no_items">Servis berkala</string>
+
+    <string name="home_cd_select_vehicle">Pilih motor aktif</string>
+    <string name="home_cd_odometer_value">Odometer saat ini %1$s</string>
+    <string name="home_cd_maintenance_row">%1$s, %2$s, %3$s</string>
+    <string name="home_cd_maintenance_row_no_detail">%1$s, %2$s</string>
+
+    <string name="home_notice_add_vehicle_unavailable">Layar tambah motor belum tersedia.</string>
+    <string name="home_notice_update_odometer_unavailable">Form perbarui kilometer belum tersedia.</string>
 </resources>

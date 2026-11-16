@@ -90,3 +90,6 @@ val Typography.numberLarge: TextStyle
 
 val TextStyle.tabular: TextStyle
     get() = copy(fontFeatureSettings = "tnum")
+
+val TextStyle.mono: TextStyle
+    get() = copy(fontFamily = IbmPlexMono, fontFeatureSettings = "tnum")

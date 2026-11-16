@@ -50,6 +50,9 @@ enum class VehicleAccent(
 
     companion object {
         val DEFAULT = BIRU_OLI
+
+        fun fromKey(key: String?): VehicleAccent =
+            entries.firstOrNull { it.key == key } ?: DEFAULT
     }
 }
 
